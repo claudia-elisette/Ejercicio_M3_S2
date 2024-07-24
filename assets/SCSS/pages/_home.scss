@@ -1,0 +1,58 @@
+body{
+    background-color: $softcolor;
+}
+.section{
+    padding-top: 4vh;
+
+    &__title{
+        margin-left: 20px;
+        margin-bottom: 10px;
+        font-size: 22px;
+        color: $primarycolor;
+    }
+    
+// Carrusel
+    &__carrousell{
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        list-style: none;
+        text-align: center;
+        position: relative;
+    }
+
+    &__slider{
+        display: inline-block;
+        position: absolute;
+
+        &--left{
+            left: 40px;
+            top: 60px;
+        }
+
+        &--right{
+            right: 40px;
+            top: 60px;
+        }
+        
+    }
+
+// Galería
+    &__gallery{
+        width: 90%;
+        height: 90%;
+        margin: auto;
+        text-align: center;
+
+    }
+}
+
+.section-novedades{
+    height: 30vh;
+}
+
+.section-ofertas{
+    height: 60vh;
+    width: 95%;
+    padding-top: 6vh;
+}

@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Verdana;
+}
+
+.navBar {
+  background-color: #694CF5;
+  height: 5vh;
+  width: 100%;
+  padding-left: 20px;
+}
+.navBar__menu {
+  list-style: none;
+  padding-top: 0.5vh;
+}
+.navBar__title {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 600;
+  padding-top: 0.5vh;
+  padding-right: 6vw;
+}
+.navBar__title a {
+  color: #FAA05A;
+}
+.navBar__item {
+  display: inline-block;
+  padding-right: 5%;
+  font-size: 18px;
+  font-weight: 550;
+}
+.navBar__item a {
+  color: #FFFFFF;
+}
+.navBar__icon {
+  display: inline-block;
+  position: fixed;
+  right: 0;
+  padding: 8px 20px 0px 20px;
+}
+.navBar__icon i {
+  color: #7DF57D;
+}
+.navBar a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.section__card {
+  display: inline-block;
+  text-align: center;
+}
+.section__card--small {
+  height: 90%;
+  width: 11%;
+}
+.section__card--medium {
+  width: 17%;
+  height: 50%;
+  padding-top: 10px;
+}
+
+.section__image {
+  height: 75%;
+  width: 80%;
+  padding: 5px 5px 0px 5px;
+  margin: auto;
+  margin-top: 3px;
+  border: 1px solid #4F3DAB;
+}
+.section__image img {
+  height: 95%;
+  width: 95%;
+}
+
+.footer {
+  background-color: #694CF5;
+  height: 4vh;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+.footer__text {
+  display: inline-block;
+  padding-top: 12px;
+  padding-left: 10px;
+  font-size: 12px;
+  color: #4F3DAB;
+}
+.footer__menu {
+  display: inline-block;
+  list-style: none;
+  position: fixed;
+  right: 0;
+}
+.footer__icon {
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 15px;
+}
+.footer__icon a {
+  color: #FFFFFF;
+}
+
+.button {
+  height: 20%;
+  width: 80%;
+  margin: auto;
+  margin-top: 2px;
+  border: none;
+  border-radius: 6px;
+  background-color: #FAA05A;
+  color: #000000;
+  font-size: 14px;
+}
+
+body {
+  background-color: rgba(222, 191, 80, 0.3215686275);
+}
+
+.section {
+  padding-top: 4vh;
+}
+.section__title {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #F5C764;
+}
+.section__carrousell {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  list-style: none;
+  text-align: center;
+  position: relative;
+}
+.section__slider {
+  display: inline-block;
+  position: absolute;
+}
+.section__slider--left {
+  left: 40px;
+  top: 60px;
+}
+.section__slider--right {
+  right: 40px;
+  top: 60px;
+}
+.section__gallery {
+  width: 90%;
+  height: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.section-novedades {
+  height: 30vh;
+}
+
+.section-ofertas {
+  height: 60vh;
+  width: 95%;
+  padding-top: 6vh;
+}
+
+/*# sourceMappingURL=style.css.map */

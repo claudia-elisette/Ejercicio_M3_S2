@@ -1,0 +1,50 @@
+.navBar{
+    background-color: $complementarycolor;
+    height: 5vh;
+    width: 100%;
+    padding-left: 20px;
+
+    &__menu{
+        list-style: none;
+        padding-top: 0.5vh;
+    }
+
+    &__title{
+        display: inline-block;
+        font-size: 20px;
+        font-weight: 600;
+        padding-top: 0.5vh;
+        padding-right: 6vw;
+    
+        a{
+            color:$secondarycolor;
+        }
+    }
+    
+    &__item{
+        display: inline-block;
+        padding-right: 5%;
+        font-size: 18px;
+        font-weight: 550;
+
+        a{
+            color:$white;
+        }
+    }
+
+    &__icon{
+        display: inline-block;
+        position: fixed;
+        right: 0;
+        padding: 8px 20px 0px 20px;
+
+        i{
+            color:$sucesscolor;
+        }
+    }
+
+    a{
+        cursor: pointer;
+        text-decoration: none;
+    }
+}   

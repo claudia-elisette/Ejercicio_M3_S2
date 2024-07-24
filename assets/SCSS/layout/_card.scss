@@ -1,0 +1,30 @@
+.section__card{
+    display: inline-block;
+    text-align: center;
+
+    &--small{
+        height: 90%;
+        width: 11%;
+    }
+
+    &--medium{
+        width: 17%;
+        height: 50%;
+        padding-top: 10px;
+    }
+}
+
+
+.section__image{
+    height: 75%;
+    width: 80%;
+    padding: 5px 5px 0px 5px;
+    margin: auto;
+    margin-top: 3px;
+    border: 1px solid $complementarycolor-shadow;
+
+    img{
+        height: 95%;
+        width: 95%;
+    }
+}
