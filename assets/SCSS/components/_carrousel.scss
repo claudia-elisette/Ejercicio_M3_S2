@@ -1,0 +1,25 @@
+// Carrusel
+.section__carrousell{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    list-style: none;
+    text-align: center;
+    position: relative;
+}
+
+.section__slider{
+    display: inline-block;
+    position: absolute;
+
+    &--left{
+        left: 40px;
+        top: 60px;
+    }
+
+    &--right{
+        right: 40px;
+        top: 60px;
+    }
+    
+}
